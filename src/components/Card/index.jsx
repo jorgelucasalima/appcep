@@ -8,6 +8,8 @@ export default function Card() {
           <h2>Localização</h2>
           <p>Endereço</p>
           <p>Bairro</p>
+          <p>Cidade</p>
+          <p>Estado</p>
         </div>
       </div>
     </Container>

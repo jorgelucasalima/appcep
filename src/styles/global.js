@@ -11,7 +11,7 @@ const StyleGlobal = createGlobalStyle`
     --texto-preto: ##2d3748;
     --texto-branco: #fbfafc;
 
-    --check-verde: #67E474;
+    --verde: #3bb54a;
     --vermelho:#e53e3e;
   }
   * {

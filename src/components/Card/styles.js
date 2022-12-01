@@ -8,7 +8,8 @@ export const Container = styled.div`
   }
 
   .card {
-    border-left: 3px solid #3bb54a;
+    // botar uma condição para caso o cep for retornado ficar o border-left na cor verde
+    border-left: 3px solid var(--fundo-navbar);
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
