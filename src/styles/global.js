@@ -5,7 +5,7 @@ const StyleGlobal = createGlobalStyle`
   :root {
     --azul-button: #319795;
 
-    --fundo: #FFFFFF;
+    --fundo: #fafafa;
     --fundo-navbar: #4b58a4;
 
     --texto-preto: ##2d3748;
