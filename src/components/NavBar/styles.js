@@ -11,4 +11,10 @@ export const Content = styled.div`
   justify-content: space-between;
   //color: var(--texto-branco)
 
-`
+  a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+`; 

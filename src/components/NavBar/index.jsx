@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container, Content } from './styles';
 
 export default function NavBar() {
@@ -5,7 +6,7 @@ export default function NavBar() {
     <Container>
       <Content>
         <h1>navbar</h1>
-        <h2>Contato do Dev</h2>
+        <Link to='/contato'>Contato do Dev</Link>
       </Content>
     </Container>
   )

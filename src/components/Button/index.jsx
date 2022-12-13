@@ -14,7 +14,7 @@ export default function Button() {
   
     const response = await api.get(`${cepDigitado}/json/`)
     .then((response) => {
-      console.log('o response é:' , response)
+      //console.log('o response é:' , response)
       setCepSalvo(response.data)
     })
     .catch((error) => {
