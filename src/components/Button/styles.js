@@ -4,7 +4,7 @@ export const Container = styled.div`
   
 `;
 
-export const Content = styled.div`    
+export const Content = styled.div`  
 
   margin-top: 2rem;
   margin-left: 1rem;  
@@ -43,7 +43,6 @@ export const Content = styled.div`
 `
 
 export const ContentCard = styled.div`
-
   margin-top: 1rem;
 
   .row {
@@ -72,5 +71,4 @@ export const ContentCard = styled.div`
     color: #a3a5ae;
     font-size: 16px;
   }
-
 `

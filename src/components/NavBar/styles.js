@@ -16,5 +16,6 @@ export const Content = styled.div`
     font-weight: bold;
     color: black;
     text-decoration: none;
+    
   }
 `; 
