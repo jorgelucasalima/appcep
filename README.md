@@ -1,8 +1,19 @@
 # AppCep
-- escrever
+- O AppCep é uma aplicação utilizada para saber o endereço via número do cep informado.
+
 ## Objetivo Projeto
-- escrever
+- Criar uma aplicação em ReactJs
+
 ## Tecnologias utilizadas
-- escrever
+- ReactJs
+- Styled Components
+- React Icons
+- React Router Dom
+
+## API
+- Foi utilizada a API do ViaCep https://viacep.com.br/ 
+
 ## Contato do Dev
-- escrever
+- Jorge 
+-- jorgelucasalima@gmail.com
+-- 81 9 95254581
