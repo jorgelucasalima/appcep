@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Content } from './styles';
+import { Container, Content, ContentCard } from './styles';
 import api from './../../services/api'
 
 export default function Button() {
@@ -39,6 +39,17 @@ export default function Button() {
             <button type='submit'>Buscar</button>
           </form>
         </Content>  
+        <ContentCard>
+          <div className="row">
+            <div className="card">
+              <h2>Localização</h2>
+              <p>Endereço: {cepSalvo.logradouro}</p>
+              <p>Bairro: {cepSalvo.bairro}</p>
+              <p>Cidade: {cepSalvo.localidade}</p>
+              <p>Estado: {cepSalvo.uf}</p>
+            </div>
+          </div>
+        </ContentCard>
       </Container>
   )
 }

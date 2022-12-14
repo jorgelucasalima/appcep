@@ -5,7 +5,7 @@ export default function NavBar() {
   return(
     <Container>
       <Content>
-        <h1>navbar</h1>
+        <Link to="/">Home</Link>
         <Link to='/contato'>Contato do Dev</Link>
       </Content>
     </Container>
