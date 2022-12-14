@@ -17,3 +17,6 @@
 - Jorge 
 -- jorgelucasalima@gmail.com
 -- 81 9 95254581
+
+## Link do projeto hospedado no Netlify
+https://appcep.netlify.app/

@@ -2,7 +2,7 @@ import { Content, CardDev } from "./styles";
 import { GrLinkedin, GrGithub, GrGoogle } from "react-icons/gr";
 import { BsWhatsapp } from "react-icons/bs";
 
-export default function BodyDev (params) {
+export default function BodyDev () {
   return( 
     <Content>
       <CardDev>
